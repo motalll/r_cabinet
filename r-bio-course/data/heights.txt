@@ -1,0 +1,126 @@
+sex	course	height
+Female	life science	138
+Female	life science	154
+Female	life science	163
+Female	life science	164
+Female	life science	176
+Female	life science	174
+Female	life science	174
+Female	life science	174
+Female	life science	163
+Female	life science	167
+Female	life science	185
+Female	life science	172
+Female	life science	159
+Female	life science	167
+Female	life science	167.6
+Female	life science	170
+Female	life science	164
+Female	life science	160
+Female	life science	159
+Male	life science	192
+Male	life science	182
+Male	life science	185
+Male	life science	184
+Male	life science	182
+Male	life science	200
+Male	life science	183
+Male	life science	177
+Male	life science	169
+Male	life science	169
+Male	life science	192
+Male	life science	178
+Male	life science	181
+Male	life science	192
+Female	life science	170
+Female	life science	163
+Female	life science	161
+Female	life science	165
+Female	life science	165
+Female	life science	180
+Female	life science	165
+Female	life science	162
+Female	life science	162
+Female	life science	167
+Female	life science	165
+Male	life science	192
+Male	life science	169
+Male	life science	200
+Male	life science	183
+Male	life science	128
+Male	life science	178
+Male	life science	180
+Male	life science	184
+Male	life science	184
+Male	life science	181
+Male	life science	183
+Male	life science	169
+Male	life science	173
+Male	life science	176
+Male	life science	176
+Male	life science	182
+Male	life science	170
+Male	life science	181
+Male	life science	180
+Male	life science	185
+Male	life science	182
+Male	life science	168
+Male	life science	192
+Male	life science	189
+Male	life science	200
+Female	not life science	149
+Female	not life science	167
+Female	not life science	165
+Female	not life science	162
+Female	not life science	162.5
+Female	not life science	167.64
+Female	not life science	165
+Female	not life science	168
+Female	not life science	159
+Female	not life science	159
+Male	not life science	125
+Male	not life science	200
+Male	not life science	180
+Male	not life science	183
+Male	not life science	181
+Male	not life science	170
+Male	not life science	176
+Male	not life science	177
+Male	not life science	179
+Male	not life science	175
+Male	not life science	145
+Male	not life science	175
+Male	not life science	170
+Female	not life science	170
+Female	not life science	162
+Female	not life science	156
+Female	not life science	166
+Female	not life science	162
+Female	not life science	167
+Female	not life science	176
+Female	not life science	163
+Female	not life science	163
+Female	not life science	164
+Female	not life science	158
+Female	not life science	170
+Female	not life science	160
+Female	not life science	170
+Female	not life science	157
+Female	not life science	170
+Female	not life science	165
+Female	not life science	165
+Female	not life science	168
+Female	not life science	162
+Female	not life science	170.18
+Female	not life science	162
+Female	not life science	165.1
+Male	not life science	186
+Male	not life science	139
+Male	not life science	173
+Male	not life science	123
+Male	not life science	172
+Male	not life science	157
+Male	not life science	166
+Male	not life science	163
+Male	not life science	184
+Male	not life science	123

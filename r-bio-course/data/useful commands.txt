@@ -1,0 +1,46 @@
+##standard errors and confidence intervals commands and scripts that may be useful##
+
+qnorm(0.975)* (sd/sqrt(n))
+qt(0.975,n-1)* (sd/sqrt(n))
+
+
+
+ci95 <- function(x) {
+  t.value <- qt(0.975,length(x)-1)
+  standard.error <- se(x)
+  ci <- t.value*standard.error
+  cat("95%CI [", mean(x) -ci, "-", mean(x) +ci,"]\n") }
+
+ci95(variable_name)
+
+####fancy plot
+
+boxplot(DV~IV,horizontal=F)
+stripchart(DV~IV, vertical=T, add=T, method="jitter",pch=18,cex=1)
+
+
+
+####bar charting
+
+install.packages("Hmisc")
+require(Hmisc)
+
+
+barwhisker<- function(x,y) {
+	calc1<-tapply(y,x,mean)
+	calc2<-tapply(y,x,sd)
+	calc3<-tapply(y,x,length)
+	calc4<-calc2/sqrt(calc3)
+	calc5<-qt(0.975,calc3-1)
+	calc6<-calc5*calc4
+	upper<-calc1+calc6
+	lower<-calc1-calc6
+	limits<-1.2*max(upper)
+	bp<-barplot(calc1,angle=170,ylim=c(0,limits),density=20,axis.lty=1)
+	errbar(bp[,1],calc1,upper,lower,add=T,xlab="")}
+
+barwhisker(x_variablename, y_variablename)
+
+
+
+

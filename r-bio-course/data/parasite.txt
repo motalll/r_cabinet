@@ -1,0 +1,29 @@
+An experiment with two difference salmon stocks, from River Conon in Scotland and from River Ätran in Sweden, was carried out as follows (Heineckeetal.,2007).Thirteen fish from each stock were infected and after four weeks the number of a certain type of parasites was counted for each of the 26 fish with the following results:
+
+stock	parasites
+Ätran	31
+Ätran	31
+Ätran	32
+Ätran	22
+Ätran	41
+Ätran	31
+Ätran	29
+Ätran	40
+Ätran	41
+Ätran	39
+Ätran	36
+Ätran	17
+Ätran	29
+Conon	18
+Conon	26
+Conon	16
+Conon	20
+Conon	14
+Conon	28
+Conon	18
+Conon	27
+Conon	17
+Conon	32
+Conon	19
+Conon	17
+Conon	28

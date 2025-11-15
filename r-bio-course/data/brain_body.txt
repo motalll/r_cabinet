@@ -1,0 +1,558 @@
+order	species	body	brain
+Artiodactyla	Cervus elaphus	141.89	326655
+Artiodactyla	Cervus nippon	46	211050
+Artiodactyla	Mazama americana	34.61	58800
+Artiodactyla	Odocoileus virginianus	101.79	150990
+Artiodactyla	Dama dama	115.38	225750
+Artiodactyla	Alces	200.54	456750
+Artiodactyla	Capreolus	68.48	105210
+Artiodactyla	Rangifer tarandus	145.49	283920
+Artiodactyla	Antilope	79.85	173250
+Artiodactyla	Samotherium	630	441000
+Artiodactyla	Muntiacus muntjak	65.67	128100
+Artiodactyla	Dicrocerus	47	157500
+Artiodactyla	Aletomeryx	16	47250
+Artiodactyla	Giraffa camelopardalis	318.85	739095
+Artiodactyla	Okapia johnstoni	217.07	526050
+Artiodactyla	Hydropotes inermis	57.57	55650
+Artiodactyla	Dremotherium	19	55650
+Artiodactyla	Leptomeryx	2.25	23100
+Artiodactyla	Hypertragulus	1.03	8925
+Artiodactyla	Agriochoerus	38.24	79800
+Artiodactyla	Protoreodon	7.57	25200
+Artiodactyla	Hyemoschus aquaticus aquaticus	56.23	26197.5
+Artiodactyla	Tragulus javanicus javanicus	32.37	15277.5
+Artiodactyla	Tragulus napu napu	28.29	18480
+Artiodactyla	Archaeotherium	230	199500
+Artiodactyla	Phacochoerus africanus	126.01	138285
+Artiodactyla	Babyrousa babyrussa	133.23	133350
+Artiodactyla	Hylochoerus meinertzhageni	200.54	147000
+Artiodactyla	Tayassu pecari	80.26	110355
+Artiodactyla	Potomochoerus porcus	130.98	144900
+Artiodactyla	Sus scrofa	124.64	189420
+Artiodactyla	Procamelus	310	399000
+Artiodactyla	Promerycochoerus	210	168000
+Artiodactyla	Protolabis	97	147000
+Artiodactyla	Leptauchaenia	2.1	21000
+Artiodactyla	Miniochoerus	4.85	31500
+Artiodactyla	Cainotherium	0.46	5460
+Artiodactyla	Bathygenys	1.09	14700
+Artiodactyla	Merycoidodon	16.76	57750
+Artiodactyla	Homacodon	0.86	9975
+Artiodactyla	Camelus bactrianus	400	604800
+Artiodactyla	Lama glama	80	243600
+Artiodactyla	Eporeodon majori	22.39	80850
+Artiodactyla	Lama pacos	55	186900
+Artiodactyla	Eporeodon socialis	16.76	48300
+Carnivora	Poecilogale albinucha	0.34	4998
+Carnivora	Bassaricyon alleni	1.24	19404
+Carnivora	Mustela altaica	0.17	4725
+Carnivora	Pseudocyonopsis ambiguus	65.03	71400
+Carnivora	Martes americana	1.25	16590
+Carnivora	Ursus americanus	99.95	272811
+Carnivora	Ursus arctos	172.72	355215
+Carnivora	Bassariscus astutus	1.13	17262
+Carnivora	Eira barbara	3.91	37663.5
+Carnivora	Adilophontes brachykolos	167.08	100096.5
+Carnivora	Pteronura brasiliensis	24	89911.5
+Carnivora	Lontra canadensis	8.09	55629
+Carnivora	Procyon cancrivorus	6.95	62422.5
+Carnivora	Aonyx capensis	19	99361.5
+Carnivora	Mellivora capensis	8.5	76618.5
+Carnivora	Conepatus chinga	1.92	15519
+Carnivora	Martinogale chisoensis	0.72	4210.5
+Carnivora	Amblonyx cinereus	1.75	39984
+Carnivora	Miacis cognitus	2.65	12579
+Carnivora	Arctonyx collaris	6.36	51870
+Carnivora	Parataxidea crassa	4.5	43879.5
+Carnivora	Plesiogulo crassa	28.99	69184.5
+Carnivora	Galictis cuja	1	15781.5
+Carnivora	Paradaphoenus cuspigerus	2.84	22596
+Carnivora	Zodiolestes daimonelixensis	5.72	33589.5
+Carnivora	Promartes darbyi	2.6	15267
+Carnivora	Ursus deningeri	153.83	396900
+Carnivora	Sinictis dolichognathus	2.22	20664
+Carnivora	Mustela erminea	0.12	4200
+Carnivora	Martinogale faulli	0.24	2257.5
+Carnivora	Lontra felina	4.5	40803
+Carnivora	Martes flavigula	1.84	35826
+Carnivora	Potos flavus	3	26806.5
+Carnivora	Tremarctos floridanus	150	330382.5
+Carnivora	Martes foina	1.54	21955.5
+Carnivora	Mustela frenata	0.15	4210.5
+Carnivora	Amphicyon galushai	258.48	266091
+Carnivora	Ischyrocyon gidleyi	500.37	326980.5
+Carnivora	Kinometaxia guangpui	2.28	15855
+Carnivora	Gulo gulo	17.01	82173
+Carnivora	Daphoenus hartshornianus	9.35	52122
+Carnivora	Promephitis hootoni	1.53	12463.5
+Carnivora	Paragale huerzeleri	2.77	19372.5
+Carnivora	Conepatus humboldtii	1.32	13198.5
+Carnivora	Amphicyon ingens	311.82	270837
+Carnivora	Mydaus javanensis	2.5	20464.5
+Carnivora	Mustela kathiah	0.21	4630.5
+Carnivora	Bathygale lemanensis	2.02	11529
+Carnivora	Conepatus leuconotus	3.5	15162
+Carnivora	Ictonyx libyca	0.63	4704
+Carnivora	Amphicyon longiramus	162.69	283815
+Carnivora	Procyon lotor	5.53	42042
+Carnivora	Lutra lutra	8.79	44205
+Carnivora	Mustela lutreola	0.44	8925
+Carnivora	Enhydra lutris	23.5	131470.5
+Carnivora	Mephitis macroura	1.03	10573.5
+Carnivora	Lutra maculicollis	4	42042
+Carnivora	Promephitis majori	0.99	6972
+Carnivora	Helarctos malayanus	46.5	362512.5
+Carnivora	Ursus maritimus	388.75	482412
+Carnivora	Martes martes	1.3	21000
+Carnivora	Pliocyon medius	181.2	233331
+Carnivora	Ailuropoda melanoleuca	108.4	246855
+Carnivora	Meles meles	13	52920
+Carnivora	Mephitis mephitis	2.09	10794
+Carnivora	Conepatus mesoleucus	2.01	16275
+Carnivora	Melogale moschata	0.81	15823.5
+Carnivora	Nasua narica	3.87	31458
+Carnivora	Pliotaxidea nevadensis	2.4	23583
+Carnivora	Mustela nigripes	0.1	2089.5
+Carnivora	Mustela nivalis	0.05	1911
+Carnivora	Indarctos oregonensis	545.49	678825
+Carnivora	Tremarctos ornatus	110	205033.5
+Carnivora	Promeles palaeattica	6.46	25273.5
+Carnivora	Lutra palaeindica	4.72	40813.5
+Carnivora	Pekania palaeosinensis	4.05	25441.5
+Carnivora	Plesictis palustris	0.67	8442
+Carnivora	Plionictis parviloba	1.98	11938.5
+Carnivora	Promephitis parvus	0.64	4914
+Carnivora	Martes pennanti	4	33411
+Carnivora	Vormela peregusna	0.54	4998
+Carnivora	Melogale personata	1.7	14521.5
+Carnivora	Lutrogale perspicillata	9	67956
+Carnivora	Leptarctus primus	2.62	13429.5
+Carnivora	Spilogale putorius	0.34	5250
+Carnivora	Mustela putorius	0.92	8715
+Carnivora	Pseudobassaris riggsi	1.76	10920
+Carnivora	Cynelos rugosidens	24.64	120750
+Carnivora	Conepatus sanmiguelensis	3.37	17377.5
+Carnivora	Conepatus semistriatus	2.04	19866
+Carnivora	Amphicticeps shackelfordi	2.14	15865.5
+Carnivora	Mustela sibirica	0.41	7087.5
+Carnivora	Arctodus simus	328.47	717265.5
+Carnivora	Ursus spelaeus	300	685219.5
+Carnivora	Ictonyx striatus	1.3	10269
+Carnivora	Bassariscus sumichrasti	0.9	20265
+Carnivora	Daphoenodon superbus	88.47	139650
+Carnivora	Taxidea taxus	7.11	51355.5
+Carnivora	Pachycynodon tedfordi	4.89	40950
+Carnivora	Enhydritherium terraenovae	17.17	125023.5
+Carnivora	Ursus thibetanus	77.5	329899.5
+Carnivora	Cephalogale ursinus	26.17	193315.5
+Carnivora	Melursus ursinus	93.13	320145
+Carnivora	Potamotherium valletoni	7.99	47964
+Carnivora	Daphoenus vetus	15.42	66549
+Carnivora	Mustela vison	1.5	9261
+Carnivora	Galictis vittata	3.2	25515
+Carnivora	Martes zibellina	1.13	19425
+Carnivora	Canis adustus	10.25	54537
+Carnivora	Cuon alpinus	12.76	99750
+Carnivora	Canis armbrusteri	47.46	161101.5
+Carnivora	Aelurodon asthenostylus	27.01	96925.5
+Carnivora	Canis aureus	10.35	75852
+Carnivora	Enhydrocyon basilatus	28.99	77364
+Carnivora	Vulpes bengalensis	2.73	27090
+Carnivora	Mesocyon brachyops	7.29	41317.5
+Carnivora	Chrysocyon brachyurus	23.25	126315
+Carnivora	Tomarctus brevirostris	19.39	53865
+Carnivora	Vulpes chama	2.96	35175
+Carnivora	Urocyon cinereoargenteus	3.83	42892.5
+Carnivora	Carpocyon compressus	15.42	75201
+Carnivora	Microtomarctus conferta	6.71	36676.5
+Carnivora	Otarocyon cooki	0.81	11592
+Carnivora	Cormocyon copei	3	27720
+Carnivora	Mesocyon coryphaeus	10.42	50578.5
+Carnivora	Pseudalopex culpaeus	9.83	54075
+Carnivora	Eucyon davisi	9	58464
+Carnivora	Canis dirus	63.37	186543
+Carnivora	Nyctereutes donnezani	8	56122.5
+Carnivora	Canis edwardii	28.44	79149
+Carnivora	Paratomarctus euthos	13.73	65971.5
+Carnivora	Aelurodon ferox	35.75	140731.5
+Carnivora	Osbornodon fricki	38.31	106281
+Carnivora	Ailurus fulgens	4.9	42892.5
+Carnivora	Sunkahetanka geringensis	12.6	57424.5
+Carnivora	Hesperocyon gregarious	2.3	15624
+Carnivora	Leptocyon gregorii	2.7	16033.5
+Carnivora	Pseudalopex gymnocercus	4.69	42000
+Carnivora	Epicyon haydeni	71.86	137833.5
+Carnivora	Tomarctus hippophaga	13.96	71452.5
+Carnivora	Osbornodon iamonensis	15.62	66528
+Carnivora	Cuon javanicus	18.41	123049.5
+Carnivora	Paraenhydrodon josephi	6.93	42042
+Carnivora	Alopex lagopus	4.87	37296
+Carnivora	Canis latrans	13.41	92641.5
+Carnivora	Phlaocyon leucosteus	2.81	19918.5
+Carnivora	Borophagus littoralis	32.04	133371
+Carnivora	Urocyon littoralis	1.9	29043
+Carnivora	Canis lupus (EUR)	131.6	30450
+Carnivora	Canis lupus (NA)	131.6	33789
+Carnivora	Otarocyon macdonaldi	0.7	8263.5
+Carnivora	Desmocyon matthewi	6.05	40551
+Carnivora	Aelurodon mcgrewi	28.1	65719.5
+Carnivora	Otocyon megalotis	4.15	28182
+Carnivora	Canis mesomelas	8.5	53991
+Carnivora	Atelocynus microtis	7.75	65289
+Carnivora	Phlaocyon multicuspus	6.43	25053
+Carnivora	Protomarctus optatus	10.33	57519
+Carnivora	Rhizocyon oregonensis	1.69	18133.5
+Carnivora	Enhydrocyon pahinsintewakpa	18.71	56826
+Carnivora	Vulpes pallida	2.8	26281.5
+Carnivora	Lycaon pictus	22.05	135450
+Carnivora	Nyctereutes procyonoides	4.04	29925
+Carnivora	Vulpes rueppelli	3.25	25504.5
+Carnivora	Epicyon saevus	39.3	109315.5
+Carnivora	Borophagus secundus	34.77	125128.5
+Carnivora	Canis simensis	10	84703.5
+Carnivora	Paracynarctus sinclairi	8.51	62569.5
+Carnivora	Enhydrocyon stenocephalus	20.74	72565.5
+Carnivora	Aelurodon taxoides	42.98	156082.5
+Carnivora	Paratomarctus temerarius	9.94	56689.5
+Carnivora	Desmocyon thompsoni	5.19	38598
+Carnivora	Cynodesmus thooides	9.05	39291
+Carnivora	Cerdocyon thous	5.24	43890
+Carnivora	Leptocyon vafer	3.62	25420.5
+Carnivora	Vulpes velox	2.2	33747
+Carnivora	Speothos venaticus	6	42472.5
+Carnivora	Vulpes vulpes eur	8	45549
+Carnivora	Vulpes vulpes	5.6	45549
+Carnivora	Carpocyon webbi	24.8	105840
+Carnivora	Vulpes zerda	1.1	18154.5
+Carnivora	Hyaena_brunnea	32.2	112035
+Carnivora	Ichneumia albicauda	3.5	25504.5
+Carnivora	Genetta angolensis	1.65	16264.5
+Carnivora	Herpestides antiquus	4	27688.5
+Carnivora	Panthera atrox	206.38	482863.5
+Carnivora	Panthera augusta	96.77	286293
+Carnivora	Profelis aurata	10.65	60868.5
+Carnivora	Prionailurus bengalensis	3.3	30838.5
+Carnivora	Cynogale bennettii	4.5	31458
+Carnivora	Eusmilus bidentatus	10.22	44100
+Carnivora	Nandinia binotata	2	18154.5
+Carnivora	Arctictis binturong	9.88	42892.5
+Carnivora	Nimravus brachyops	36.53	100905
+Carnivora	Smilodon californicus	225.6	404890.5
+Carnivora	Caracal caracal	13.75	57907.5
+Carnivora	Lycyaena chaeretis	40	160461
+Carnivora	Felis chaus	7.39	41212.5
+Carnivora	Civettictis civetta	12	38818.5
+Carnivora	Salonoia concolor	0.65	11571
+Carnivora	Puma concolor	51.6	131470.5
+Carnivora	Bdeogale crassicaudata	1.55	17797.5
+Carnivora	Proteles cristata	10	36918
+Carnivora	Crocuta crocuta	63	151231.5
+Carnivora	Dinictis cyclops	12.85	66664.5
+Carnivora	Hemigalus derbyanus	2.12	19866
+Carnivora	Herpestes edwardsii	1.32	11014.5
+Carnivora	Galidia elegans	0.8	11235
+Carnivora	Adcrocuta eximia	70	187162.5
+Carnivora	Smilodon fatalis	225.6	363205.5
+Carnivora	Dinictis felina	21.02	73962
+Carnivora	Cryptoprocta ferox	9.5	33747
+Carnivora	Fossa fossana	1.5	20674.5
+Carnivora	Nimravides galiani	129.7	228154.5
+Carnivora	Genetta genetta	2	14710.5
+Carnivora	Oncifelis geoffroyi	3.59	35700
+Carnivora	Eupleres goudotii	3	17797.5
+Carnivora	Smilodon gracilis	82.8	194124
+Carnivora	Homotherium hadarensis	106.47	222085.5
+Carnivora	Paradoxurus hermaphroditus	3.16	19425
+Carnivora	Thalassictis hipparionum	18.96	81511.5
+Carnivora	Hyaena hyaena	41.71	102385.5
+Carnivora	Hyaenictitherium hyaenoides	23.16	95539.5
+Carnivora	Herpestes ichneumon	5.18	24507
+Carnivora	Viverricula indica	2.91	17619
+Carnivora	Lynx issiodorensis	30	100989
+Carnivora	Herpestes javanicus	0.74	7602
+Carnivora	Acinonyx jubatus	50	116602.5
+Carnivora	Stenogale julieni	2.14	10741.5
+Carnivora	Paleoprionodon lamandini	1.97	9366
+Carnivora	Paguma larvata	4.3	32424
+Carnivora	Herpestes lemanensis	3.48	26029.5
+Carnivora	Panthera leo	161.5	234811.5
+Carnivora	Prionodon linsang	0.7	8925
+Carnivora	Barbourofelis loveorum	134.67	171024
+Carnivora	Lynx lynx	17.95	73615.5
+Carnivora	Otocolobus manul	3.5	36193.5
+Carnivora	Viverra megaspila	9.25	38430
+Carnivora	Rhynchogale melleri	2.5	17797.5
+Carnivora	Barbourofelis morrisi	70.33	127732.5
+Carnivora	Mungos mungo	1.93	11014.5
+Carnivora	Herpestes naso	3	26806.5
+Carnivora	Neofelis nebulosa	19.68	72145.5
+Carnivora	Felis nigripes	1.3	21094.5
+Carnivora	Crossarchus obscursus	1.25	10269
+Carnivora	Hoplophoneus occidentalis	55.1	157815
+Carnivora	Panthera onca	100	158980.5
+Carnivora	Machairodus palanderi	160.8	305592
+Carnivora	Atilax paludinosus	3.3	29925
+Carnivora	Leopardus pardalis	11.9	66601.5
+Carnivora	Prionodon pardicolor	0.51	9481.5
+Carnivora	Panthera pardus	52.04	131470.5
+Carnivora	Helogale parvula	0.3	4998
+Carnivora	Cynictis penicillata	0.84	11014.5
+Carnivora	Dinofelis pivateau	259.82	161364
+Carnivora	Pogonodon platycopis	46.6	118156.5
+Carnivora	Hoplophoneus primaevus	11	65845.5
+Carnivora	Hoplophoneus primaevus I	19.54	68250
+Carnivora	Hoplophoneus primaevus II	12.2	52500
+Carnivora	Galerella pulverulenta	0.8	11571
+Carnivora	Palinhyaena reperta	20.45	78424.5
+Carnivora	Prionailurus rubignosa	2.77	19866
+Carnivora	Lynx rufus	8.9	60868.5
+Carnivora	Galerella sanguinea	0.55	9198
+Carnivora	Paracynictis selousi	1.64	16590
+Carnivora	Homotherium serus	150	348904.5
+Carnivora	Leptailurus serval	12	59640
+Carnivora	Genetta servalina	1.06	15781.5
+Carnivora	Lynx shansius	21.72	71736
+Carnivora	Hoplophoneus sicarius	21.87	104821.5
+Carnivora	Felis silvestris	5.53	39207
+Carnivora	Crocuta sivalensis	56.88	195489
+Carnivora	Herpestes smithii	1.78	14427
+Carnivora	Tungurictis spocki	4.05	20338.5
+Carnivora	Suricata suricatta	0.73	10794
+Carnivora	Viverra tangalunga	8.68	25252.5
+Carnivora	Catopuma temninckii	11.5	71431.5
+Carnivora	Genetta tigrina	2.23	15939
+Carnivora	Panthera tigris	162.56	292593
+Carnivora	Arctogalidia trivirgata	2.25	23079
+Carnivora	Uncia uncia	44.17	106564.5
+Carnivora	Herpestes urva	1.86	21955.5
+Carnivora	Pseudaelurus validus	24.8	75379.5
+Carnivora	Herpestes vitticollis	2.58	27079.5
+Carnivora	Ictitherium viverrinum	18	64375.5
+Carnivora	Prionailurus viverrinus	9.14	48856.5
+Carnivora	Hyaenictitherium wongi	35	81301.5
+Carnivora	Herpailurus yagourundi	7.87	42042
+Carnivora	Paradoxurus zeylonensis	2.78	18700.5
+Carnivora	Viverra zibetha	9.5	38818.5
+Cetacea	Dalanistes ahmedi	750	420000
+Cetacea	Dorudon atrox	2240	1244670
+Cetacea	Basilosaurus cetoides	3605.42	1334970
+Cetacea	Rodhocetus kasrani	290	305550
+Cetacea	Zygorhiza kochii	2040	840840
+Cetacea	Saghacetus osiris	350	407400
+Cetacea	indet	57.77	510825
+Cetacea	Lagenorhynchus acutus	244.22	1155525
+Cetacea	Globicephala baereckeii	900.77	4374195
+Cetacea	Pontoporia blainvillei	33.78	230580
+Cetacea	Eurhinodelphis bossi	105.23	809361
+Cetacea	Steno bredanensis	123.83	1618995
+Cetacea	Kogia breviceps	302.21	1062075
+Cetacea	Squalodon calvertensis	154.62	655105.5
+Cetacea	Ziphius cavirostris	2273	2104200
+Cetacea	Stenella clymene	86	699300
+Cetacea	Stenella coeruleoalba	128.72	985425
+Cetacea	Pseudorca crassidens	579.2	3687600
+Cetacea	Eurhinodelphis cristatus	132.62	832293
+Cetacea	Orycterocetus crocodilinus	422.57	2298345
+Cetacea	Phocoenoides dalli	85.75	904470
+Cetacea	Delphinus delphis	59.98	855015
+Cetacea	Mesoplodon densirostris	763.33	1529850
+Cetacea	Squaloziphius emlongi	164.2	742245
+Cetacea	Mesoplodon europaeus	711.66	2254035
+Cetacea	Sotalia fluviatilis	42.2	722400
+Cetacea	Platanista gangetica	61.99	313845
+Cetacea	Inia geoffrensis	87.94	659190
+Cetacea	Grampus griseus	319.97	2503620
+Cetacea	Cephalorhynchus heavisidii	71	801150
+Cetacea	Eurhinodelphis indet	80.87	544729.5
+Cetacea	Delphinapterus leucas	636	2187150
+Cetacea	Stenella longirostris	66.2	693000
+Cetacea	Schizodelphis longirostris	77.19	464950.5
+Cetacea	Physeter macrocephalus	35632.15	8399370
+Cetacea	Globicephala melaena	938.07	3004785
+Cetacea	Mesoplodon mirus	925.08	2472435
+Cetacea	Monodon monoceros	1578.12	3143385
+Cetacea	Lagenorhynchus obliquidens	63.5	1097250
+Cetacea	Lagenorhynchus obscurus	58.47	930405
+Cetacea	Orcinus orca	1953.2	5279400
+Cetacea	Kentriodon pernix	31.55	380467.5
+Cetacea	Phocoena phocoena	53.51	548835
+Cetacea	Allodelphis pratti	170.82	897540
+Cetacea	Simocetus rayi	94.27	557130
+Cetacea	incertae sedis1	78.08	317520
+Cetacea	incertae sedis2	54.81	532875
+Cetacea	incertae sedis3	78.08	269535
+Cetacea	Kogia simus	167.96	652575
+Cetacea	Pomatodelphis sp	175.57	383565
+Cetacea	Xenorophus sp.	96.85	904470
+Cetacea	new species	50.12	446775
+Cetacea	new species	88.76	339150
+Cetacea	new species	506.74	2465820
+Cetacea	new species	197.49	899955
+Cetacea	Phocoena spinipinnis	68.04	626850
+Cetacea	Tursiops truncatus	206.82	1847160
+Cetacea	Lipotes vexillifer	82	535500
+Insectivore	Tenrec ecaudatus	0.23	2845.5
+Insectivore	Setifer setosus	0.14	1407
+Insectivore	Chlorotalpa sp.	0.07	1354.5
+Insectivore	Chrysochloris sp.	0.07	1186.5
+Insectivore	Hemicentetes sp.	0.08	766.5
+Insectivore	Microgale sp.	0.05	756
+Insectivore	Micropotamogale sp.	0.07	1512
+Insectivore	Oryzorictes sp.	0.05	703.5
+Insectivore	Potamogale sp.	0.39	11067
+Insectivore	Echinops telfairi	0.06	546
+Insectivore	Zalambdalestes lechei	0.08	1071
+Insectivore	Kennalestes gobiensis	0.04	315
+Insectivore	Asioryctes nemegetensis	0.04	525
+Insectivore	Erinaceus europaeus	0.93	3675
+Insectivore	Atelerix sp.	0.29	5250
+Insectivore	Erinaceus sp.	0.31	5481
+Insectivore	Hemiechinus sp.	0.17	3244.5
+Insectivore	Elephantulus sp.	0.12	2478
+Insectivore	Rhynchocyon sp.	0.57	11434.5
+Insectivore	Tupaia javanica	0.16	3307.5
+Insectivore	Talpa europea	0.08	976.5
+Insectivore	Neomys fodiens	0.02	283.5
+Insectivore	Eoryctes melanus	0.05	1050
+Insectivore	Solenodon sp.	0.43	6940.5
+Insectivore	Blarina sp.	0.04	735
+Insectivore	Crocidura sp.	0.03	378
+Insectivore	Microsorex sp.	0.01	168
+Insectivore	Neomys sp.	0.03	567
+Insectivore	Sorex sp.	0.02	304.5
+Insectivore	Suncus sp.	0.02	294
+Insectivore	Desmana sp.	0.36	10321.5
+Insectivore	Galemys sp.	0.12	3559.5
+Insectivore	Talpa sp.	0.1	1900.5
+Perissodactyla	Ceratotherium	1396.37	673270.5
+Perissodactyla	Diceros	948.42	642967.5
+Perissodactyla	Teleoceras	1500	1575000
+Perissodactyla	Rhinoceros	2238.72	825300
+Perissodactyla	Subhyracodon	550	294000
+Perissodactyla	Amynodon	119.44	199500
+Perissodactyla	Hyracodon	72.78	168000
+Perissodactyla	Hyrachus	46.4	108150
+Perissodactyla	Heptodon	16	52500
+Perissodactyla	Colonoceras	47	74550
+Perissodactyla	Tapirus indicus	223.87	278250
+Perissodactyla	Tapirus terrestris	159.96	189535.5
+Perissodactyla	Neohipparion	150	168000
+Perissodactyla	Pliohippus	220	283500
+Perissodactyla	Merychippus	110	283500
+Perissodactyla	Mesohippus	25	89250
+Perissodactyla	Mesatirhinus	255.22	194250
+Perissodactyla	Palaeosyops	199.59	210000
+Perissodactyla	Hyracotherium	9.08	26250
+Perissodactyla	Equus africanus	156.31	410571
+Perissodactyla	Equus caballos	398.35	617463
+Perissodactyla	Equus caballos przewalskii	197	614250
+Perissodactyla	Equus quagga	262.12	589102.5
+Perissodactyla	Equus zebra	227.51	637665
+Primates	Oreopithecus	32	422100
+Primates	Chilecebus	0.58	7833
+Primates	Proconsul	19	175350
+Primates	Aegyptopithecus	6.01	22050
+Primates	Catopithecus	2.818	3255
+Primates	Cercocebus albigena	7.9	102480
+Primates	Papio anubis	25	200508
+Primates	Cercopith ascanius	3.4	74088
+Primates	Piliocolobus badius	7	77511
+Primates	Ateles geoffroyi	8	106081.5
+Primates	Callimico goedli	0.48	11035.5
+Primates	Gorilla gorilla	105	493878
+Primates	Parapithecus grangeri	1.8	14700
+Primates	Callithrix jacchus	0.28	7602
+Primates	Lagothrix lagotricha	5.2	100275
+Primates	Hylobates lar	5.7	102385.5
+Primates	Nasalis larvatus	14	97440
+Primates	Cercopith mitis	6.3	66685.5
+Primates	Callicebus moloch	0.9	18837
+Primates	Pithecia monarchus	1.5	34513.5
+Primates	Macaca mulatta	7.8	92295
+Primates	Saguinus oedipus	0.38	10017
+Primates	Erythrocebus patas	7.8	108328.5
+Primates	Cebuella pygmea	0.14	4515
+Primates	Saimiri sciureus	0.66	23698.5
+Primates	Alouatta sp.	6.4	51460.5
+Primates	Cebus sp.	3.1	70287
+Primates	Miopithecus talapoin	1.2	39669
+Primates	Saguinus tamarin	0.34	10048.5
+Primates	Aotus trivirgatus	0.83	17010
+Primates	Pan troglodytes	46	401205
+Primates	Plesiadapis	1.81	18900
+Primates	Plesiadapis cookei	2.2	5250
+Primates	Ignacius graybullianus	0.38	2247
+Primates	Plesiadapis tricuspidens	10.5	17430
+Primates	Propithecus	3.48	26449.5
+Primates	Necolemur antiquus	0.32	3990
+Primates	Nycticebus coucang	0.8	12348
+Primates	Otolemur crassicaudatus	0.85	10153.5
+Primates	Galagoides demidorvii	0.08	3360
+Primates	Eulemur fulvus	1.4	23215.5
+Primates	Pronycticebus gaudryi	1.22	5040
+Primates	Smilodectes gracilis	1.68	9975
+Primates	Tetonius homunculus	0.29	1575
+Primates	Indri indri	6.25	38104.5
+Primates	Leptadapis magnus	9.5	22785
+Primates	Cheirogaleus major	0.18	3108
+Primates	Cheirogaleus medius	0.45	6688.5
+Primates	Microcebus murinus	0.05	1764
+Primates	Avahi o. laniger	1.29	10290
+Primates	Avahi o. occidentalis	0.86	9576
+Primates	Adapis parisiensis	2.35	9240
+Primates	Adapis parisiensis2	2.35	9240
+Primates	Perodicticus potto	1.15	13870.5
+Primates	Lepilemur ruficaudatus	0.92	7539
+Primates	Galago senegalensis	0.19	4735.5
+Primates	Mioeuoticus sp.	1.28	8190
+Primates	Loris tardigradus	0.32	6583.5
+Primates	Notharctus tenebrosus	1.99	9975
+Primates	Varecia variegatus	3	31195.5
+Primates	Rooneyia viejaensis	1.4	7770
+Primates	Homo sapiens	65	1266.666667
+Primates	Pan troglodytes	46	385.7142857
+Primates	Pongo pygmaeus	57.0215	393.6190476
+Primates	Hylobates lar	5.7	97.14285714
+Primates	Papio anubis	25	191.4285714
+Primates	Cercocebus aligena	7.9	99.04761905
+Primates	Cercopithecus aetiops	4.819	69.71428571
+Primates	Colobus badius	7	74.28571429
+Primates	Pygathrix nemaeus	7.5	73.33333333
+Primates	Lagothrix lagotricha	5.2	96.19047619
+Primates	Cebus sp.	3.1	67.61904762
+Primates	Aotus sp.	0.83	16.28571429
+Primates	Leontopithecus rosalia	0.59	12.76190476
+Primates	Callimico goeldii	0.48	10.47619048
+Primates	Callithrix jacchus	0.28	7.238095238
+Primates	Pithecia monacha	1.5	33.33333333
+Primates	Galago senegalensis	0.186	4.571428571
+Primates	Nycticebus coucang	0.8	11.9047619
+Primates	Propithecus verreauxi	3.48	25.42857143
+Primates	Cheirogaleus major	0.45	6.476190476
+Primates	Varecia variegatus	3	30
+Primates	Homo heidelbergensis	62	1065.106667
+Primates	Homo erectus	57	905.9314286
+Primates	Homo ergaster	58	763.8238095
+Primates	Dmanisi homoids	50	596.5352381
+Primates	Homo habilis	34	497.5371429
+Primates	Homo rudolfensis	45	674.1085714
+Primates	Homo floresiensis	16	362.5933333
+Primates	Paranthropus boisei	44	462.9847619
+Primates	Australopithecus africanus	36	413.2885714
+Primates	Proconsul africanus	10.5	153.7390476
+Primates	Oreopithecus bambolii	30	364.8190476
+Primates	Victoriapithecus macinnesi	4.5	50.71428571
+Primates	Anapithecus hernyati 	13.5	102.0152381
+Primates	Catopithecus browni	0.9	3.061904762
+Primates	Parapithecus grangeri	1.8	11.0047619
+Primates	Aegyptopithecus zeuxis	67.1	32.56571429
+Primates	Chilecebus carrasoensis	0.5826	7.255238095
+Primates	Tetonius homunculus	0.074	1.500952381
+Primates	Necrolemur antiquus	0.233	3.74
+Primates	Rooneyia viejaensis	0.782	7.198095238
+Primates	Mioeuoticus sp.	1.28	7.58
+Primates	Notharctus tenebrosus	1.99	10.05619048
+Primates	Smilodectes gracilis	1.96	9.2
+Primates	Pronycticebus gaudryi	1.22	4.704761905
+Primates	Adapis parisiensis	2.35	8.534285714

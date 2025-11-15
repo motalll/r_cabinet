@@ -1,0 +1,5 @@
+Tmux basic commands
+loading a file into R.nvim for all major file types. First basic then advanced and most optimised
+Going up to Unit 30 of my masterclass
+Going over all drop in sessions and replicating
+Doing all the Homework
