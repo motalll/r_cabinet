@@ -1,0 +1,980 @@
+treatment	disease
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	1
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+vaccinated	0
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	1
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0
+not vaccinated	0

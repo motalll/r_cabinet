@@ -2,7 +2,7 @@
 # Why: hard-coding full paths everywhere is error-prone; one change here updates all reads/writes.
 
 
-setwd("/home/motall/r_cabinet/r-bio-course/scripts/")
+setwd("/home/motall/h_projects/r_cabinet/r-bio-course/scripts")
 
 proj <- normalizePath("..", mustWork = FALSE) # go one folder "up" from scripts/ (adjust if needed)
 data_dir <- file.path(proj, "data") # join folder names the OS-correct way
@@ -1082,7 +1082,6 @@ range(eg$BH)
 
 cor(eg$NH, eg$ybp)
 
-
 plot(eg$NH ~ eg$ybp)
 
 cov(eg$MB, eg$NH)
@@ -1095,6 +1094,60 @@ summary(m_reg)
 
 m_reg2 <- lm(MB ~ ybp, data = eg)
 summary(m_reg2)
+
+
+
+# ---------- W9 --------------
+
+tb <- read_tab("tb_glm.txt")
+tb_df <- table(tb$treatment, tb$disease)
+#                 
+#                    0   1
+#   not vaccinated  99 110
+#   vaccinated     464 306
+
+tb_chi <- chisq.test(tb_df)
+
+tb_chi$expected   # PERF: The technique you were looking for
+
+
+
+# ----- XXX: fisher Test -------- Lady tasisiting tea experiment
+mosaicplot(tb_df, shade=T)
+fisher.test(tb_df)
+
+# --------- XXX: general linear model
+
+
+tb_glm <- glm(tb$desease, tb$treatment, bionomial)
+
+
+
+
+# ---- 
+
+titanic <- read_tab("titanic.txt")
+View(titanic)
+
+titanic_glm <- glm()
+
+
+
+
+# ----- curve fitting
+
+puro <- read_tab("puro.txt")  # FIXME: do not have the data
+
+
+# nls with its two distinct parameters
+
+# the predict function
+
+
+
+
+
+
 
 
 
