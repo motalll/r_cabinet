@@ -2,7 +2,9 @@
 # Why: hard-coding full paths everywhere is error-prone; one change here updates all reads/writes.
 
 
-setwd("/home/motall/h_projects/r_cabinet/r-bio-course/scripts")
+setwd("/home/motall/h_projects/r_cabinet/r-bio-course/scripts") # for the t470s
+setwd("/home/motall/r_cabinet/r-bio-course/scripts/")  # for the wsl
+
 
 proj <- normalizePath("..", mustWork = FALSE) # go one folder "up" from scripts/ (adjust if needed)
 data_dir <- file.path(proj, "data") # join folder names the OS-correct way
@@ -1059,7 +1061,7 @@ summary(m_cu)
 TukeyHSD(m_cu)
 
 
-#------------  XXX: skull
+#------------  XXX: skull of mummies or something; the new film was not as good ----
 
 
 View(eg)
@@ -1073,7 +1075,7 @@ sd <- sd(eg$MB[eg$ybp == 6000])
 shapiro.test(eg$MB[eg$ybp == 5300])
 
 shapiro.test(eg$MB)
-hist(eg$MB)
+hist(eg$MB, col = "lightblue")
 
 mean(eg$BL[eg$ybp == 2200])
 sd(eg$BL[eg$ybp == 2200])
@@ -1145,10 +1147,488 @@ puro <- read_tab("puro.txt")  # FIXME: do not have the data
 
 
 
+# -------------- code redo due to loss ---------------
+cranid_df <- read_tab("cranid_full.txt")
+View(cranid_df)
+tapply(cranid_df$GOL, cranid_df$NOL, mean) # one way of running the same operation on multiple colomns can also be used for testing the var between two groups
+
+tapply(cranid_df$GOL, cranid_df$NOL, var)
+
+
+garden <- read_tab("gardens.txt")
+
+
+
+set_dark_par()
+boxplot(garden$bird ~ garden$garden)
+abline(2, 0.1, col="firebrick", lwd =2) # just to show you can add abline to any existing plot. The first parameter is alpha dn the second is beta
+
+garden_aov_m <- aov(birds ~ garden, data = garden)
+summary(garden_aov_m)
+
+
+# We need to run post hoc after ANOVA as it does not tell us between which group and appreciate that TUSKey is just running t.test but accounting for family wise error
+
+pairwise.t.test() # This is one way to do it but not as robust as the TukeyHSD test
+
+
+TukeyHSD(garden_aov_m)
+
+
+# much like the t-test that has a qf command, ANVOA has a qf() command, but it is hardly ever utilised because anova does that automatically for us
+
+qf(0.975, 1, 18)  #It has three parameters
+# [1] 5.978052
+
+
+# NOTE: you can plot the aov model 
+
+plot(garden_aov_m) # NOTE: in residual vs Fitted, what we are looking for is whether the data points are roughly equally spaced up and below the red line. The red line correspnds to the statistical model, and the dots are the residuals............... The normal QQ plot gives you the quantile of the values against the residuals (basically the same thing as the previosu plotts
+# NOTE: we want the dots equally up and below the red line which is the expected value of the residuals
+#NOTE: Scale-location: it is to see whether we need to do any transformation to the data. If you pay closer look to the Y-axis, you will see that it has taken the square root of residuals to see whether they have an effect
+#NOTE: lastly, there is the leverage plot but we do not see anything on this until we do anything robust (?????)
+
+# if you want to see them all at the same time
+par(mfrow=c(2,2)) 
+plot(garden_aov_m) 
+par(mfrow=c(1,1)) 
+
+
+
+# BUG: calculating eta squared, the effect size, of aov: the sum of squares of the treatment, as a proportion of the total sum of squares
+
+20 / (20 + 24)
+# [1] 0.4545455
+
+# or more formully
+
+anova_table <- summary(garden_aov_m)[[1]]
+#             Df Sum Sq Mean Sq F value   Pr(>F)   
+# garden       1     20 20.0000      15 0.001115 **
+# Residuals   18     24  1.3333                    
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+SS_effect <- anova_table["garden", "Sum Sq"]
+# [1] 20
+SS_error  <- anova_table["Residuals", "Sum Sq"]
+SS_total  <- SS_effect + SS_error
+
+eta_sq <- SS_effect / SS_total
+eta_sq
+# [1] 0.4545455
 
 
 
 
+x <- c(4, 6, 9, 13,17)
+y <- c(4, 3, 8, 15, 23)
+
+cor.test(x, y) # one way to check for corrolation between tow samples
+plot(y ~ x, col = "yellow")
+
+
+# -------------- XXX: Regression
+
+reg_m <- lm(y ~ x)
+summary(reg_m)
+summary(reg_m)$coefficients[,"t value"] # PERF: Advance syntactical technique
+# (Intercept)           x 
+#   -2.228360    8.088058 
+
+# you can use the coefficients from the results of a regression to get the alpha and beta and use that when you are plotting the abline
+abline(2, 2, col="firebrick", lwd = 2 )
+
+# regression is running analysis of varience under the hood that is why you can put the results of its model object inside of an aov comman
+summary.aov(reg_m)
+
+
+
+# ---- NOTE: w9 workshop - Skript Kiddy
+
+
+puro <- read_tab("puro.txt")
+attach(puro)
+model<-nls(rate~(vmax*conc)/(km+conc), start=list(vmax=180,km=0.1)) 
+summary(model) 
+
+xpred<-seq(0,1.1,0.01) 
+ypredMM <- predict(model,list(conc=xpred)) 
+lines(ypredMM~xpred,lty=2,col="blue" ) 
+
+coef(model) 
+
+confint(model)
+
+detach(puro)
+
+
+
+ # ---------- Q and A ------
+
+# xxx: Princpal component analysis PCA, also called dimension reduction --- pairs()
+cranid <- read_tab("cranid_full.txt")
+pairs(cranid[, 3:9])
+
+# -------------------------------- XXX: catch up ---------------
+
+# ----------------- W6 regression ----
+set_dark_par()
+
+brain_body_df <- read_tab("brain_body.txt")
+plot(brain_body_df$brain ~ brain_body_df$body)
+
+# as you can see heavily influnced by outliers - let us try another data set
+
+cov(brain_body_df$brain, brain_body_df$body)
+
+# covairence is affected by scale, so a less crude way is:
+
+cor()
+
+
+
+reg_ex_df <- read_tab("regression_example.txt")
+plot(reg_ex_df$y ~ reg_ex_df$x, col="firebrick", lwd=2, pch= 19)
+
+reg_model_of_reg_ex_df <- lm(y ~ x, data = reg_ex_df)
+summary(reg_model_of_reg_ex_df)                             # NOTE: gives coefficients table
+summary.lm(reg_model_of_reg_ex_df)  # PERF: it seems to give the exact same results
+
+# NOTE: we can use the reg to get the alpha and beta and fit the abline line which is basically the line of best fit - alpha, the first value, is the y intercept and the beta, the second value, is the gradient
+
+abline(5.43467, 0.46189, col= "tomato", lty = 2, lwd = 2) # You can make it dotted, adjust thinkness, or create a box inside the graph
+
+plot(reg_ex_df$y ~ reg_ex_df$x, col="firebrick", pch=19)
+abline(5.43467, 0.46189, col="tomato", lty=2, lwd=2)
+
+# more advance way just combine the two functions together
+abline(lm(y ~ x, data = reg_ex_df), col="tomato", lty=2, lwd=2) #BUG: the line is not the correction regression line ====> Fixed, you should put the complete formula inside the paranthesis for lm
+
+# or
+abline(reg_model_of_reg_ex_df)
+
+
+
+# abline and the line function have different use cases - if you want to add a regression line abline is your guy but if you want to fit multiple data lines on the same plot use line
+
+
+
+
+# ---- PERF: DRAW BOX HERE ----
+rect(
+  xleft = 2,     # left boundary
+  ybottom = 5,   # bottom boundary
+  xright = 6,    # right boundary
+  ytop = 12,     # top boundary
+  border = "yellow",
+  lwd = 2
+)
+
+
+
+
+
+# "white" "aliceblue" "antiquewhite" "antiquewhite1" "antiquewhite2" "antiquewhite3" "antiquewhite4""aquamarine" "aquamarine1" "aquamarine2" "aquamarine3" "aquamarine4""azure" "azure1" "azure2" "azure3" "azure4""beige" "bisque" "bisque1" "bisque2" "bisque3" "bisque4""black" "blanchedalmond" "blue" "blue1" "blue2" "blue3" "blue4""blueviolet" "brown" "brown1" "brown2" "brown3" "brown4""burlywood" "burlywood1" "burlywood2" "burlywood3" "burlywood4""cadetblue" "cadetblue1" "cadetblue2" "cadetblue3" "cadetblue4""chartreuse" "chartreuse1" "chartreuse2" "chartreuse3" "chartreuse4""chocolate" "chocolate1" "chocolate2" "chocolate3" "chocolate4""coral" "coral1" "coral2" "coral3" "coral4"
+#"cornflowerblue" "cornsilk" "cornsilk1" "cornsilk2" "cornsilk3" "cornsilk4""cyan" "cyan1" "cyan2" "cyan3" "cyan4""darkblue" "darkcyan" "darkgoldenrod" "darkgoldenrod1" "darkgoldenrod2" "darkgoldenrod3" "darkgoldenrod4""darkgray" "darkgreen" "darkgrey" "darkkhaki" "darkmagenta""darkolivegreen" "darkolivegreen1" "darkolivegreen2" "darkolivegreen3" "darkolivegreen4""darkorange" "darkorange1" "darkorange2" "darkorange3" "darkorange4""darkorchid" "darkorchid1" "darkorchid2" "darkorchid3" "darkorchid4""darkred" "darksalmon" "darkseagreen" "darkseagreen1" "darkseagreen2" "darkseagreen3" "darkseagreen4""darkslateblue" "darkslategray" "darkslategray1" "darkslategray2" "darkslategray3" "darkslategray4""darkslategrey" "darkturquoise" "darkviolet""deeppink" "deeppink1" "deeppink2" "deeppink3" "deeppink4""deepskyblue" "deepskyblue1" "deepskyblue2" "deepskyblue3" "deepskyblue4""dimgray" "dimgrey" "dodgerblue" "dodgerblue1" "dodgerblue2" "dodgerblue3" "dodgerblue4""firebrick" "firebrick1" "firebrick2" "firebrick3" "firebrick4""floralwhite" "forestgreen""gainsboro" "ghostwhite""gold" "gold1" "gold2" "gold3" "gold4""goldenrod" "goldenrod1" "goldenrod2" "goldenrod3" "goldenrod4""gray" "gray0" "gray1" "gray2" … "gray100""green" "green1" "green2" "green3" "green4""greenyellow" "grey" "grey0" "grey1" … "grey100""honeydew" "honeydew1" "honeydew2" "honeydew3" "honeydew4""hotpink" "hotpink1" "hotpink2" "hotpink3" "hotpink4""indianred" "indianred1" "indianred2" "indianred3" "indianred4""indigo" "ivory" "ivory1" "ivory2" "ivory3" "ivory4""khaki" "khaki1" "khaki2" "khaki3" "khaki4""lavender" "lavenderblush" "lavenderblush1" "lavenderblush2" "lavenderblush3" "lavenderblush4""lawngreen" "lemonchiffon" "lemonchiffon1" "lemonchiffon2" "lemonchiffon3" "lemonchiffon4""lightblue" "lightblue1" "lightblue2" "lightblue3" "lightblue4""lightcoral" "lightcyan" "lightcyan1" "lightcyan2" "lightcyan3" "lightcyan4""lightgoldenrod" "lightgoldenrod1" "lightgoldenrod2" "lightgoldenrod3" "lightgoldenrod4""lightgoldenrodyellow""lightgray" "lightgreen" "lightgrey""lightpink" "lightpink1" "lightpink2" "lightpink3" "lightpink4""lightsalmon" "lightsalmon1" "lightsalmon2" "lightsalmon3" "lightsalmon4""lightseagreen" "lightskyblue" "lightskyblue1" "lightskyblue2" "lightskyblue3" "lightskyblue4""lightslateblue" "lightslategray" "lightslategrey""lightsteelblue" "lightsteelblue1" "lightsteelblue2" "lightsteelblue3" "lightsteelblue4""lightyellow" "lightyellow1" "lightyellow2" "lightyellow3" "lightyellow4""limegreen" "linen""magenta" "magenta1" "magenta2" "magenta3" "magenta4""maroon" "maroon1" "maroon2" "maroon3" "maroon4""mediumaquamarine""mediumblue""mediumorchid" "mediumorchid1" "mediumorchid2" "mediumorchid3" "mediumorchid4""mediumpurple" "mediumpurple1" "mediumpurple2" "mediumpurple3" "mediumpurple4""mediumseagreen" "mediumslateblue" "mediumspringgreen" "mediumturquoise" "mediumvioletred""midnightblue" "mintcream" "mistyrose" "mistyrose1" "mistyrose2" "mistyrose3" "mistyrose4""moccasin""navajowhite" "navajowhite1" "navajowhite2" "navajowhite3" "navajowhite4""navy" "navyblue""oldlace" "olive" "olivedrab" "olivedrab1" "olivedrab2" "olivedrab3" "olivedrab4""orange" "orange1" "orange2" "orange3" "orange4""orangered" "orangered1" "orangered2" "orangered3" "orangered4""orchid" "orchid1" "orchid2" "orchid3" "orchid4""palegoldenrod" "palegreen" "palegreen1" "palegreen2" "palegreen3" "palegreen4""paleturquoise" "paleturquoise1" "paleturquoise2" "paleturquoise3" "paleturquoise4""palevioletred" "palevioletred1" "palevioletred2" "palevioletred3" "palevioletred4""papayawhip" "peachpuff" "peachpuff1" "peachpuff2" "peachpuff3" "peachpuff4""peru" "pink" "pink1" "pink2" "pink3" "pink4"
+#"plum" "plum1" "plum2" "plum3" "plum4""powderblue""purple" "purple1" "purple2" "purple3" "purple4""red" "red1" "red2" "red3" "red4""rosybrown" "rosybrown1" "rosybrown2" "rosybrown3" "rosybrown4""royalblue" "royalblue1" "royalblue2" "royalblue3" "royalblue4""saddlebrown""salmon" "salmon1" "salmon2" "salmon3" "salmon4""sandybrown""seagreen" "seagreen1" "seagreen2" "seagreen3" "seagreen4""seashell" "seashell1" "seashell2" "seashell3" "seashell4""sienna" "sienna1" "sienna2" "sienna3" "sienna4""skyblue" "skyblue1" "skyblue2" "skyblue3" "skyblue4""slateblue" "slateblue1" "slateblue2" "slateblue3" "slateblue4""slategray" "slategray1" "slategray2" "slategray3" "slategray4""slategrey""snow" "snow1" "snow2" "snow3" "snow4""springgreen" "springgreen1" "springgreen2" "springgreen3" "springgreen4""steelblue" "steelblue1" "steelblue2" "steelblue3" "steelblue4""tan" "tan1" "tan2" "tan3" "tan4""thistle" "thistle1" "thistle2" "thistle3" "thistle4""tomato" "tomato1" "tomato2" "tomato3" "tomato4""turquoise" "turquoise1" "turquoise2" "turquoise3" "turquoise4""violet" "violetred" "violetred1" "violetred2" "violetred3" "violetred4""wheat" "wheat1" "wheat2" "wheat3" "wheat4""whitesmoke""yellow" "yellow1" "yellow2" "yellow3" "yellow4""yellowgreen"
+
+
+
+
+ # NOTE: What is happening under the hood with Peter's R test, which is cor()
+
+cov(reg_ex_df$y, reg_ex_df$x)
+# [1] 34.06405
+
+cov(reg_ex_df$y, reg_ex_df$x) / (sd(reg_ex_df$y) * sd(reg_ex_df$x))
+# [1] 0.8976781
+
+
+# Note how cor will give you the same results - we do this in the first place because covarience is very affected by sclae and cannot be used to compare values from different things, for instance if we wanted to compare the heart rate of a rat with that of an elephant in context
+
+cor(reg_ex_df$y, reg_ex_df$x)
+# [1] 0.8976781
+
+
+# NOTE: you can test Peter's R, whether it is significant or not, using the following function
+
+cor.test(reg_ex_df$y, reg_ex_df$x)
+
+
+# you can run summary.aov() on model created by regression
+summary.aov(reg_model_of_reg_ex_df)
+#             Df Sum Sq Mean Sq F value Pr(>F)    
+# x            1  912.6   912.6   236.6 <2e-16 ***
+# Residuals   57  219.9     3.9                   
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+
+
+# -------------------- W7 Complex Linear Models - ANCOVA - Analysis of coverience
+
+rat <- read_tab("ratweight.txt")
+View(rat)
+
+rat_ancova_m <- aov(Gain ~ Protein + Amount, data = rat)
+summary(rat_ancova_m)
+
+
+# NOTE: you can run posthoc method for ANCOVA but not using TuskeyHSD - you need to install a package 
+
+
+
+p_load("multcomp")
+posthocs<-glht(rat_ancova_m, linfct = mcp(Amount = "Tukey"))
+summary(posthocs)
+
+# BUG: news flash you can use two way ANOVA on this data but not ANCOVA - ANCOVA requires at least one continues covarient - If you have only categorical predictors, you cannot perform ANCOVA. - ANalysis of COvariance → you must have a covariate (a continuous one). The thing that makes a model ANCOVA is the presence of a continuous covariate, not the interaction.
+
+cricket <- read_tab("cricket_ancova.txt")
+
+View(cricket)
+
+
+cricket_ancova_m <- aov(pulses ~ temp * species, data = cricket)
+summary(cricket_ancova_m)
+
+cricket_posthocs<-glht(cricket_ancova_m, linfct = mcp(temp = "Tukey")) # FIXME: not working
+summary(posthocs)
+
+
+
+
+# ------------------------------------------ W8 catagorical data ----
+
+
+treated <- c(4,12)
+untreated <- c(5,74)
+avadex<-rbind(treated,untreated)
+avadex
+
+
+#Chi-square test uses counts in a contingency table. Those counts come from categorical variables. The fact the numbers are written as integers in R doesn’t make the variables numeric in the statistical sense – they’re frequencies of categories, not continuous measurements.
+
+
+xi <- chisq.test(avadex, correct = F)
+xi
+
+xi$residuals # XXX: for some reason it did not give me the residuals when I asked for the entire info above
+# numbers to note are smaller or greater than -/+2 or for extremely unsusual -/+3
+
+
+
+
+# NOTE: calculating effect size - here it is calculating odds ratio
+
+4/12
+0.3333333/0.06756757
+
+
+# ---------------------- XXX: Non Linear Regression - Week 9
+
+
+## -----------------------------
+## 1. Create a small non-linear dataset
+## -----------------------------
+set.seed(123)                          # for reproducibility
+
+x  <- seq(0, 5, length.out = 30)       # predictor
+y_true <- 2 * exp(0.5 * x)             # underlying non-linear curve
+y  <- y_true + rnorm(length(x), 0, 5)  # add noise
+
+dat <- data.frame(x, y)
+
+## -----------------------------
+## 2. Plot the raw data
+## -----------------------------
+plot(dat$x, dat$y,
+     main = "Non-linear data and different fits",
+     xlab = "x", ylab = "y",
+     pch = 19)
+
+## Optionally, add the true curve (we know it because we simulated it)
+curve(2 * exp(0.5 * x), add = TRUE, lwd = 2)   # true model (for reference)
+
+## -----------------------------
+## 3. Linear model (wrong but useful as baseline)
+##    - Treats relationship as straight line
+## -----------------------------
+lm_lin <- lm(y ~ x, data = dat)
+summary(lm_lin)
+
+abline(lm_lin, lwd = 2, lty = 2)       # dashed line = simple linear fit
+
+## -----------------------------
+## 4. Linearise using log-transform (common trick)
+##    - If y ≈ a * exp(bx), then log(y) ≈ log(a) + b x
+##    - Fit linear model on log(y), then back-transform
+## -----------------------------
+lm_log <- lm(log(y) ~ x, data = dat)
+summary(lm_log)
+
+## Extract coefficients and reconstruct curve on original y-scale
+a_hat <- exp(coef(lm_log)[1])         # exp(intercept)
+b_hat <- coef(lm_log)[2]
+
+curve(a_hat * exp(b_hat * x),
+      add = TRUE, lwd = 2, lty = 3)   # dotted line = log-linear fit
+
+## -----------------------------
+## 5. Polynomial regression (flexible but still linear in parameters)
+##    - Fits y ≈ β0 + β1 x + β2 x^2
+## -----------------------------
+lm_poly <- lm(y ~ x + I(x^2), data = dat)
+summary(lm_poly)
+
+## Add polynomial fit as a smooth curve
+x_grid <- seq(min(x), max(x), length.out = 200)
+y_poly <- predict(lm_poly, newdata = data.frame(x = x_grid))
+lines(x_grid, y_poly, lwd = 2, lty = 4)  # dash-dot = quadratic fit
+
+## -----------------------------
+## 6. TRUE non-linear regression with nls()
+##    - Directly fit y = a * exp(b x)
+##    - Need reasonable starting values for parameters
+## -----------------------------
+# Use rough guesses close to the truth (a ~ 2, b ~ 0.5)
+nls_fit <- nls(y ~ a * exp(b * x),
+               data = dat,
+               start = list(a = 1, b = 0.3))  # starting guesses
+
+summary(nls_fit)
+coef(nls_fit)
+
+## Predicted curve from nls model
+y_nls <- predict(nls_fit, newdata = data.frame(x = x_grid))
+lines(x_grid, y_nls, lwd = 3, col = "black")  # thick black curve = nls fit
+
+legend("topleft",
+       legend = c("Data",
+                  "True curve",
+                  "Linear",
+                  "Log-linear",
+                  "Quadratic",
+                  "nls non-linear"),
+       pch = c(19, NA, NA, NA, NA, NA),
+       lty = c(NA, 1, 2, 3, 4, 1),
+       lwd = c(NA, 2, 2, 2, 2, 3),
+       bty = "n")
+
+
+# --------------------------------- W10 Non parametric statistics ----------
+
+
+###############################################################################
+# 1. Create a small example dataset
+#    We'll create a dataset with a nonlinear curved pattern
+#    plus a categorical variable for non-parametric tests.
+###############################################################################
+
+set.seed(1)                     # reproducibility
+
+# Numeric predictor
+x <- seq(0, 10, length.out = 60)
+
+# True nonlinear function with noise
+y <- sin(x) + rnorm(60, sd = 0.3)
+
+# A categorical grouping variable for Kruskal-Wallis test
+group <- gl(3, 20, labels = c("A", "B", "C")) 
+
+dat <- data.frame(x, y, group)
+
+# Plot raw data
+plot(x, y, pch = 19,
+     main = "Example Data", xlab = "x", ylab = "y")
+
+
+
+###############################################################################
+# 2. Kruskal-Wallis test
+# kruskal.test(y ~ group) compares median y across three groups (A, B, C)
+# It uses ranks instead of raw values → non-parametric.
+###############################################################################
+
+kruskal_result <- kruskal.test(y ~ group, data = dat)
+kruskal_result
+
+
+
+###############################################################################
+# 3. Non-parametric regression using loess()
+# loess(y ~ x) fits a smooth curve that adapts to the data.
+# span controls smoothness: smaller = wigglier slope.
+###############################################################################
+
+loess_fit <- loess(y ~ x, data = dat, span = 0.5)
+
+# Generate smooth predictions
+x_grid <- seq(min(x), max(x), length.out = 200)
+y_loess <- predict(loess_fit, newdata = data.frame(x = x_grid))
+
+# Add to the plot
+lines(x_grid, y_loess, col = "blue", lwd = 3)
+legend("topright", legend = "LOESS fit", col = "blue", lwd = 3, bty = "n")
+
+
+
+###############################################################################
+# 4. Kernel smoothing using ksmooth()
+# ksmooth(x, y) returns smoothed values using kernel-weighted local averaging.
+# bandwidth controls how wide the weighting window is.
+###############################################################################
+
+kfit <- ksmooth(x, y, kernel = "normal", bandwidth = 0.8)
+
+# Add to plot
+lines(kfit$x, kfit$y, col = "red", lwd = 2, lty = 2)
+legend("bottomright", legend = "Kernel smooth", col = "red", lwd = 2, lty = 2, bty = "n")
+
+
+
+###############################################################################
+# 5. Generalized Additive Model (GAM) for smooth curve
+# library(mgcv) uses s(x) to fit a smooth spline.
+###############################################################################
+
+library(mgcv)
+
+gam_fit <- gam(y ~ s(x), data = dat)     # s(x) = smooth function of x
+y_gam <- predict(gam_fit, newdata = data.frame(x = x_grid))
+
+lines(x_grid, y_gam, col = "darkgreen", lwd = 3)
+legend("topleft", legend = "GAM spline", col = "darkgreen", lwd = 3, bty = "n")
+
+
+###############################################################################
+# 6. Logistic regression for binary outcomes
+# We simulate a binary (0/1) variable where probability increases with x.
+###############################################################################
+
+# Simulate binary outcome
+p <- plogis(-2 + 0.4 * x)   # logistic function = sigmoid curve
+binary_y <- rbinom(60, size = 1, prob = p)
+
+plot(x, binary_y, pch = 19,
+     main = "Binary Data for Logistic Regression",
+     ylab = "Outcome (0/1)", xlab = "x")
+
+###############################################################################
+# Fit logistic regression using glm()
+# glm(outcome ~ predictor, family = binomial) fits a sigmoid curve.
+###############################################################################
+
+logit_model <- glm(binary_y ~ x, family = binomial)
+summary(logit_model)
+
+# Predict smooth probabilities
+p_hat <- predict(logit_model, newdata = data.frame(x = x_grid), type = "response")
+
+lines(x_grid, p_hat, col = "purple", lwd = 3)
+legend("bottomright", legend = "Logistic regression", col = "purple", lwd = 3, bty = "n")
 
 
 
