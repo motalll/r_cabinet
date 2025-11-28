@@ -1631,4 +1631,27 @@ lines(x_grid, p_hat, col = "purple", lwd = 3)
 legend("bottomright", legend = "Logistic regression", col = "purple", lwd = 3, bty = "n")
 
 
+ # --------- Lecture w10 ------
 
+parasite_df <- read_tab("parasite.txt")
+
+
+wilcox.test(parsites~stock) # So strict that is more likely to give you a false negative
+
+# you can use anova but it gives you a much lower p value because non parametric varation of the t test is limited, so we can run the non parametric version of anova
+
+
+kruskal.test()
+
+
+# the non parametric version of regression
+# NOTE: loess(y~x) - not really useful
+
+loess()
+
+# all the approaches above are nothing more than stop gaps and better approaches exists
+
+
+
+
+ 
