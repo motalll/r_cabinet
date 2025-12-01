@@ -1,4 +1,4 @@
-# This creates variables that hold the paths we’ll reuse.
+# Thisfcreates variables that hold the paths we’ll reuse.
 # Why: hard-coding full paths everywhere is error-prone; one change here updates all reads/writes.
 
 
@@ -493,7 +493,7 @@ run_battery_of_tests_updated(fish_data$length)
 # ---------------------------------------- Anova -----------------
 garden_df <- read_tab("gardens.txt")
 shapiro.test(garden_df$birds)
-
+View(garden_df)
 garden_aov_modl <- aov(birds ~ garden, data=garden_df)
 summary(garden_aov_modl)
 TukeyHSD(garden_aov_modl)
@@ -1695,7 +1695,7 @@ emmeans(model , ~snout_vent)
 
 
 
-
+# Just an Ester egg
 
 plot(1:10,1:10,xlim=c(-5,5),ylim=c(0,10),type="n",xlab="",ylab="",xaxt="n",yaxt="n")
 
@@ -1738,3 +1738,80 @@ for(i in 1:10){
  rect(xPres[i]-0.2*xWidth[i],0,xPres[i]+0.2*xWidth[i],xHeight[i],col=sample(c("gold","grey87"),size=1))
 
 }
+
+
+
+
+
+
+
+# ---------------- W11 lecture -------------
+
+# null hypothesis testing - NHST
+#  if you do not see any blinding, it is just an observtional study
+# if you cannot reject the null, you can say there was no effect what so ever
+0.2048 / 1
+0.7682 / 70
+
+
+
+0.2048 / 0.01097429
+
+# mean square is the same as F value in anova because it is analysis of varience
+
+0.2048 / 0.7682 + 0.2048
+
+
+4.8 + 6.0 + 5.6 + 5.0 + 5.9 + 4.8
+
+m = 32.1 / 6
+m
+
+v <- (4.8 - m)^2 + (6.0 - m)^2 + (5.6 - m)^2 + (5.0 - m)^2 + (5.9 - m)^2 + (4.8 - m)^2 # how far they are from the mean
+v / 5 # you divide it my df 6 and not 5
+sd <- sqrt(v)
+sd
+
+se <- sd <- sqrt(6)
+se
+
+data <- c(4.8, 6.0, 5.6, 5.0, 5.9, 4.8)
+var(data)
+
+sd(data)
+
+
+# BUG: Learn to do these automaticlaly in the calculator
+
+
+sd(data)/ sqrt(6) # standard error
+# now if you add and substract the mean from this it will give you the 
+
+
+.22*2.57 # it gives you how much your standard error/ ci ???? needs to move to get to
+
+
+
+a <- 65 * 25
+b <- a / (65 + 25 + 55 + 50)
+b
+
+# BUG: above is wrong approach
+
+# what are the odds of having cnacer in the treated group is different from the odds ratio of getting cancer
+
+
+
+65 / 25 # the odds of being sick in the treated grou
+
+
+# asking about risk ratio is rarer as it is more in the field of bilogy of populatin ???
+
+
+
+
+
+
+
+
+
